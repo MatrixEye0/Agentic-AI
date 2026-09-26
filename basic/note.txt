@@ -1,0 +1,14 @@
+install 
+python -m venv (env name)
+
+activate env by 
+env name\Scripts\activate
+
+install google gemini
+python -m pip install -U google-genai
+
+verify by 
+python -m pip show google-genai
+
+install dotenv
+python-dotenv
