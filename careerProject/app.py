@@ -8,7 +8,7 @@ api_key = os.getenv("GEMINI_API_KEY")# get api key
 client = genai.Client(api_key=api_key) # create gemini client
 
 generation_config = {
-    'max_output_tokens': 500,
+    'max_output_tokens': 600,
     'thinking_level': 'medium',
 }
 
